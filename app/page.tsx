@@ -5,7 +5,6 @@ import { useWallet } from "./context/WalletContext";
 
 import {
   BASE_FEE,
-  Contract,
   Networks,
   rpc as StellarRpc,
   Transaction,
@@ -16,7 +15,7 @@ import {
 
 import { signTransaction } from "./stellar-wallet-kit";
 
-const CONTRACT_ID = "CCGHWWNJDDTOE5T6LU6HIODI3ODMIO3G2JZV5EYR4PM34A5U4YD6LJZW";
+const CONTRACT_ID = "CB4O35JVG35BLWBNGNQHDKJYNZ4SJUKBCZLVCDCRGJQORP5DVMKNVWD7";
 const NETWORK_PASSPHRASE = Networks.TESTNET;
 const SOROBAN_URL = "https://soroban-testnet.stellar.org:443";
 
